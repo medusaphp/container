@@ -1,0 +1,21 @@
+{
+  "name": "medusa/container",
+  "require": {
+    "psr/container": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pascal Schnell",
+      "email": "pascal.schnell@getmedusa.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Medusa\\Container\\": "src"
+    }
+  }
+}
